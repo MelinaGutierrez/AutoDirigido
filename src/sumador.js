@@ -24,7 +24,6 @@ class Auto{
       Auto.posx -=1;
     }
   }
-
   elegirDireccion(mov)
   {
     let orientacion = ["O","N","E","S"]
@@ -51,7 +50,6 @@ class Auto{
       Auto.direccion = orientacion[cambio - 1]
     }
   }
-
   ejecutar(mov) 
   {
     for(let i=0; i<mov.length; i++)
